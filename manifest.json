@@ -1,0 +1,16 @@
+{
+  "name": "News Paywall Buster",
+  "short_name": "PaywallBuster",
+  "version": "1.00",
+  "description": "Bypass or prevent online news website \"Paywalls\"",
+  "permissions": ["webRequest", "webRequestBlocking", "*://*/","cookies", "tabs", "browsingData"],
+  "background": {
+    "scripts": ["main.js"],
+    "persistent": true
+  },
+  "icons": { "16": "icon16.png",
+             "48": "icon48.png",
+            "128": "icon128.png" },
+
+  "manifest_version": 2
+}
